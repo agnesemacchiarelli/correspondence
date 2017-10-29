@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="letter1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Example of an anthology of letters</title>
+                <respStmt>
+                    <resp>example provided by</resp>
+                    <name>Peter Stadler</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>TEI Correspondence SIG, correspDesc task force</authority>
+                <availability>
+                    <licence>
+                        <p>CC+BY and BSD-2 licences</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Giacomo Meyerbeer. Briefwechsel und Tagebücher, Bd. 1, Berlin 1960</bibl>
+            <!-- Lista Persone -->
+                <listPerson>
+                    <person xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xml:id="person_00047" role="actor">
+                        <persName>Barthès de Marmorières, Antoine (1736-1811)</persName>
+                        <sex value="M"/>
+                        <socecStatus>Baron</socecStatus>
+                        <birth>
+                            <date when="1736"/>
+                            <placeName ref="place_01022"/>
+                        </birth>
+                        <death>
+                            <date when="1811-08-03"/>
+                            <placeName ref="place_00432"/>
+                        </death>
+                        <occupation>Militär</occupation>
+                        <occupation>Schriftsteller</occupation>
+                        <occupation>Diplomat</occupation>
+                        <affiliation>
+                            <ref target="org_00258"/>
+                            <date when="1763"/>
+                        </affiliation>
+                        <bibl>
+                            <listRelation>
+                                <relation name="vater" ref="person_01501"/>
+                                <relation name="bruder" ref="person_00048"/>
+                                <relation name="freund" ref="person_01241">
+                                    <desc>A. war Sekretär vor 1789 (unter "Comte d'Artois")</desc>
+                                </relation>
+                            </listRelation>
+                        </bibl>
+                        <listBibl>
+                            <bibl>
+                                <relatedItem>
+                                    <ref target="publication_03151">Die Blütezeit der Oekonomischen Gesellschaft in Bern 1759-1766</ref>
+                                </relatedItem>
+                            </bibl>
+                        </listBibl>
+                    </person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc xml:id="letter">
+                <correspAction type="sent">
+                    <persName>L. Schoenberger</persName>
+                    <placeName>London</placeName>
+                    <date when="1815-03-04">4 March 1815</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Giacomo Meyerbeer</persName>
+                    <placeName>Paris</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div decls="#letter">
+                <opener>
+                    <dateline>London d. 4. März <supplied>1</supplied>815</dateline>
+                    <salute>Schätzbarster Freund!</salute>
+                </opener>
+                <p>Wir sind ganz wohlbehalten …</p>
+            </div>
+        </body>
+    </text>
+</TEI>
