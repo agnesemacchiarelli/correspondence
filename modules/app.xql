@@ -7,7 +7,7 @@ import module namespace util="http://exist-db.org/xquery/util";
 
 declare function app:letterList($node as node(), $module as map(*)) {
     element ul {
-        for $object in collection("/db/apps/Correspondence/data")/tei:TEI
+        for $object in collection("/db/apps/Correspondence/data/letters")/tei:TEI
         return
             element li {
                 element a {
@@ -20,7 +20,7 @@ declare function app:letterList($node as node(), $module as map(*)) {
 
 declare function app:object() {
     let $id := request:get-parameter("id", ())
-    let $object := collection("/db/apps/Correspondence/data")/tei:TEI[@xml:id = $id]
+    let $object := collection("/db/apps/Correspondence/data/letters")/tei:TEI[@xml:id = $id]
     return $object
 };
 
@@ -69,13 +69,13 @@ declare function app:graph($node as node(), $module as map(*)) {
         "var graph = new Springy.Graph();",
 
         "graph.addNodes(",
-        for $name in distinct-values(collection("/db/apps/Correspondence/data")//tei:correspAction/tei:persName/data(.))
+        for $name in distinct-values(collection("/db/apps/Correspondence/data/letters")//tei:correspAction/tei:persName/data(.))
         return
             concat("'", $name, "', "),
         ");",
         
         "graph.addEdges(",
-        for $object in collection("/db/apps/Correspondence/data")//tei:correspDesc
+        for $object in collection("/db/apps/Correspondence/data/letters")//tei:correspDesc
         return
             (
                 "[",
