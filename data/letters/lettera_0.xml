@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="letter0">
@@ -19,47 +18,9 @@
                     </licence>
                 </availability>
             </publicationStmt>
-            <sourceDesc>
+            <sourceDesc xmlns:xi="http://www.w3.org/2001/XInclude">
                 <bibl>Giacomo Meyerbeer. Briefwechsel und Tagebücher, Bd. 1, Berlin 1960</bibl>
-            <!-- Lista Persone -->
-                <listPerson>
-                    <person xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xml:id="person_00047" role="actor">
-                        <persName>Barthès de Marmorières, Antoine (1736-1811)</persName>
-                        <sex value="M"/>
-                        <socecStatus>Baron</socecStatus>
-                        <birth>
-                            <date when="1736"/>
-                            <placeName ref="place_01022"/>
-                        </birth>
-                        <death>
-                            <date when="1811-08-03"/>
-                            <placeName ref="place_00432"/>
-                        </death>
-                        <occupation>Militär</occupation>
-                        <occupation>Schriftsteller</occupation>
-                        <occupation>Diplomat</occupation>
-                        <affiliation>
-                            <ref target="org_00258"/>
-                            <date when="1763"/>
-                        </affiliation>
-                        <bibl>
-                            <listRelation>
-                                <relation name="vater" ref="person_01501"/>
-                                <relation name="bruder" ref="person_00048"/>
-                                <relation name="freund" ref="person_01241">
-                                    <desc>A. war Sekretär vor 1789 (unter "Comte d'Artois")</desc>
-                                </relation>
-                            </listRelation>
-                        </bibl>
-                        <listBibl>
-                            <bibl>
-                                <relatedItem>
-                                    <ref target="publication_03151">Die Blütezeit der Oekonomischen Gesellschaft in Bern 1759-1766</ref>
-                                </relatedItem>
-                            </bibl>
-                        </listBibl>
-                    </person>
-                </listPerson>
+                <xi:include href="/db/apps/Correspondence/data/people/people.xml"/>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
