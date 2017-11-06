@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="carta_001">
+   
+   <teiHeader>
+      
+      <fileDesc>
+         
+         <titleStmt>
+            <title>Cartas de Luisa Sigea a un caballero sobre la soledad</title>
+            <title>Carta núm. 1</title>
+            <author>Luisa Sigea</author>
+            <editor>Antonio Rojas Castro</editor>
+         </titleStmt>
+         
+         <publicationStmt>
+            <distributor>Cologne Center for eHumanities</distributor>
+            <pubPlace>Colonia</pubPlace>
+            <date when="2017-09">2017</date>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Reconocimiento 4.0 Internacional</licence>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>España</country>
+                  <settlement>Madrid</settlement>
+                  <repository>Biblioteca Nacional de España</repository>
+                  <idno type="cataloguenumber">MSS/10722</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+         
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <correspDesc ref="http://cceh.uni-koeln.de/">
+            
+            <correspAction type="sent">
+               <persName ref="viaf.org/viaf/8726289" corresp="person_8726289">Luisa Sigea</persName>
+               <date notBefore="1540" notAfter="1560"/>
+            </correspAction>
+            
+            <correspAction type="received">
+               <persName corresp="person_000003">A un caballero</persName>
+            </correspAction>
+            
+         </correspDesc>
+         
+         <textClass>
+            
+            <keywords>
+               <term>Soledad</term>
+               <term>Alma</term>
+               <term>Voluntad</term>
+               <term>Afición</term>
+               <term>Libertad de Espíritu</term>
+            </keywords>
+            
+         </textClass>
+         
+         <langUsage>
+            <language ident="es" usage="90">Español</language>
+            <language ident="lat" usage="8">Latín</language>
+            <language ident="ita" usage="2">Italiano</language>
+         </langUsage>
+         
+      </profileDesc>
+      
+      
+      
+   </teiHeader>
+   
+   <text>
+      <body>
+         <head>Carta núm. 1</head>
+         <p>Después de que os fuisteis de aquí, me hallé desconsolada y sola de todo lo que es compañía, porque quedé entre dos mozas que me dieron de comer, las quales para el cuerpo no son alivio,
+            pues ni se debe hablar con ellas porque <foreign xml:lang="lat">non omnes capiunt hoc verbum</foreign>; ni lo son para el espíritu, porque según son materiales, no le tienen. Atribúleme
+            con una soledad tan grande, sin saber de qué me espanto; porque si la tenía de mi marido, parecióme fuera de propósito tenerla agora desta suerte más que en estos días, pues
+            <supplied>h</supplied>a quatro que está ausente.</p>
+         <p>Si de amigos, también, pues los veo harto, y no los hay tales en el mundo que merezcan que se haga caso de su ausencia, porque al mejor tiempo buscan sus remedios corporales con que pasan
+            los desabrimientos del espíritu, como hicisteis vos ayer, según me han informado.</p>
+         <p>Si esta soledad procedía de mí misma, no supe de qué, porque si algo fui algún día, lo soy agora, de aquello que yo llamo verdadero y sustancial ser, que lo demás de hermosura llévalo una
+            calentura o dos partos o tres años de más edad o un poco de descontento, y las demás veces, la diversidad de las opiniones; que lo que a unos parece bien, otros lo juzgan por malísimo.</p>
+         <p>En fin, con todas estas imaginaciones crecía más la pena de la soledad y no sabía caer en la quenta de qué, hasta que atiné que tenía ausentes tres cosas mías que la falta de la menor
+            dellas basta para engendrar tal pasión, las quales son: la voluntad, la afición <supplied>y</supplied> la libertad de espíritu, que son las compañeras más leales del alma, porque en faltar
+            todas éstas, todo está ausente.</p>
+         <p>Pues estando la voluntad en otra persona, no puedo yo tenerla en mí misma, ni querer otro que no sea aquello; y si la afición está empleada en otra parte, aun está peor que la voluntad,
+            porque en siendo afición es pasión y engaño, y trae <supplied>a</supplied> las gentes embelesadas de tal suerte que mira lo que les cumple y no lo hace; sino que les acaece como al que le
+            dieran yerbas, que se queda diciendo siempre la misma cosa que gustaba al tiempo que enfermó, o sea, a propósito o fuera dél. Pues la libertad ¿qué es della estando un alma de la suerte
+            que digo? ¿Qué me queda? A ser como dice mi <persName>Agustín</persName>: <foreign xml:lang="lat">suspirabam ligatus non ferro alieno sed mea ferrea voluntate: velle, enim, meum, tenebat,
+               inimicus, et inde mihi catena finxerat et constrinserat me dura servitute</foreign>. Y faltando la libertad ¿qué puede haber de consuelo ni contento? Que sola ésta sustenta quando se
+            tiene, y duele cuando se pierde.</p>
+         <p>Así que yo, con las lástimas de mi soledad, acójome a escribíroslas, no para pediros remedio, que no hay quien le dé sino quien dio el daño, que es el alma; y como fue flaca quando se
+            engañó, así es menester que sea valerosa para tornar en sí y sanar <foreign xml:lang="lat">quod confractum fuerat</foreign>. Pero dígolo <foreign xml:lang="ita">per isfogar il mio intorno
+               pianto</foreign> de verme así, como el que llora, que toma consuelo de que le vean llorar, aun los no amigos; que la misma pasión de suyo finge (para ser menor) que se compadece quien
+            ve sus lágrimas, y con éste engaño aliviase. Y lo bueno fue que para que de veras fuese engaño, llegando aquí me dieron el recado de la compañía que tenéis, donde no faltara
+            <persName>Bacco</persName> y la otra su compañera que no merece ser nombrada. Estuve con tal recado por romper este papel; después no quise ni aún pude; que a estos términos soy
+            llegada, y más adelante, a que dice el mismo mi <persName>Agustino</persName>: <foreign xml:lang="lat">dum servitur voluntati, facta est necesitas</foreign> y lo que más es para admirar,
+            que con estar aquí estoy tan lejos de que vos estáis, conforme al sensual apetito de las demás gentes, y tan cerca de mi <foreign xml:lang="lat">Illibata</foreign> y limpia opinión y
+            condición que jamás saldré della.</p>
+         <p>Verdad es que la tengo por diferente respecto de que se puede pensar que porque dura y no sea como todo lo corruptible que la<gap/>, violencia trae al fin en breve. Y porque mis soledades
+            no enfaden, que no debéis tenerlas con tal compañía y es al sordo música, no digo más dellas, más que rogaros que me busquéis algún medio, y si le halláredes que me satisfaga, se os decid
+            lo de <persName>Virgilio</persName>: <foreign xml:lang="lat">Philida solus habeto</foreign>; y esto si sois griego; si no, aprended <supplied>vos</supplied> qué quiere dezir
+            <persName><mentioned>Filide</mentioned></persName>.</p>
+      </body>
+   </text>
+</TEI>
