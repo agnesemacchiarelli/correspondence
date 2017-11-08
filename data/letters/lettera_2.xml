@@ -1,5 +1,5 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="carta_001">
     <teiHeader>
         <fileDesc>
@@ -18,7 +18,124 @@
                 </availability>
             </publicationStmt>
             <sourceDesc xmlns:xi="http://www.w3.org/2001/XInclude">
-                <xi:include href="/db/apps/Correspondence/data/people/people.xml"/>
+                <listPerson>
+                    <person xml:id="person_8726289">
+                        <persName type="main" xml:lang="es">Luisa Sigea de Velasco</persName>
+                        <persName xml:lang="lat">Aloysia Sygaea Toletana</persName>
+                        <persName type="nickname">Luísa Sigea Toledana</persName>
+                        <persName type="old">Luísa Sigeia</persName>
+                        <sex value="F"/>
+                        <socecStatus>Nobleza</socecStatus>
+                        <birth>
+                            <date when="1522">1522</date>
+                            <placeName>Cuenca</placeName>
+                        </birth>
+                        <death>
+                            <date when="1522">1560</date>
+                            <placeName>Burgos</placeName>
+                        </death>
+                        <occupation>Humanista</occupation>
+                        <occupation>Poeta</occupation>
+                        <occupation>Cortesana</occupation>
+                        <education>Recibió una educación muy esmerada por por parte de su padre <persName>Diego Sigeo</persName>, humanista de origen Francés.</education>
+                        <listEvent>
+                            <event>
+                                <p>En 1532 se exilió a Portugal junto con sus padres y hermanos.</p>
+                            </event>
+                            <event>
+                                <p>En 1540, cuando contaba 18 años de edad, a través de un amigo de su padre, el italiano Girolamo Britonio, envió una carta en latín al papa <persName>Paulo
+                           III</persName>.</p>
+                            </event>
+                            <event>
+                                <p>A partir de 1542, fue moza de cámara para la reina doña <persName>Catalina de Portugal</persName> y su hija la infanta <persName>María</persName>.</p>
+                            </event>
+                            <event>
+                                <p>En 1522 volvió a España tras casarse con el hidalgo burgalés <persName>Francisco de las Cuevas</persName>.</p>
+                            </event>
+                            <event>
+                                <p>En 1557 dio a luz a su única hija, <persName>Juana de Cuevas Sigea</persName>.</p>
+                            </event>
+                            <event>
+                                <p>En 1558 la familia se trasladó a Valladolid, donde entraron al servicio de <persName>María de Habsburgo</persName>, hija de <persName>Felipe I de Castilla</persName>. El 18
+                           de octubre de de 1558 la reina de Hungría falleció repentinamente</p>
+                            </event>
+                            <event>
+                                <p>A princípios de 1560, Luisa Sigea fue a Toledo para pedir, a través del embajador de Francia un empleo junto a <persName>Isabel de Valois</persName>, recién casada con
+                           <persName>Felipe II</persName>; pero, aunque fue recibida por la nueva reina, no obtuvo cargo alguno.</p>
+                            </event>
+                        </listEvent>
+                        <trait>
+                            <p>Políglota</p>
+                        </trait>
+                        <trait>
+                            <p>Hermosura</p>
+                        </trait>
+                        <trait>
+                            <p>Exiliada</p>
+                        </trait>
+                        <listBibl>
+                            <bibl>
+                                <title>Syntra</title>
+                            </bibl>
+                            <bibl>
+                                <title>Dialogus de differentia vitae rusticae et urbanae</title>
+                            </bibl>
+                        </listBibl>
+                    </person>
+                    <person xml:id="person_000003">
+                        <persName type="main">Desconocido</persName>
+                        <persName type="nickname">Caballero</persName>
+                        <birth>
+                            <date notBefore="1500" notAfter="1540">1500-1540</date>
+                            <placeName cert="low">España</placeName>
+                        </birth>
+                        <death>
+                            <date notBefore="1540" notAfter="1580">1540-1580</date>
+                            <placeName cert="low">España</placeName>
+                        </death>
+                        <sex value="M"/>
+                        <socecStatus>Noble</socecStatus>
+                    </person>
+                    <person xml:id="person_66462281">
+                        <persName>Plauto</persName>
+                        <sex value="M"/>
+                        <occupation>Autor</occupation>
+                    </person>
+                    <person xml:id="person_000005">
+                        <persName>Faralis</persName>
+                        <sex value="M">Hombre</sex>
+                        <occupation>Tirano</occupation>
+                    </person>
+                    <person xml:id="person_66806872">
+                        <persName>San Agustín</persName>
+                        <persName>Agustino</persName>
+                        <sex value="M"/>
+                        <occupation>Padre de la Iglesia</occupation>
+                    </person>
+                    <person xml:id="person_8194433">
+                        <persName>Virgilio</persName>
+                        <sex value="M"/>
+                        <occupation>Escritor</occupation>
+                    </person>
+                    <person xml:id="person_000001">
+                        <persName>Filide</persName>
+                        <sex value="F"/>
+                        <note>Personaje de las <title>Bucólicas</title>
+                        </note>
+                    </person>
+                    <person xml:id="person_000002">
+                        <persName>Baco</persName>
+                        <persName>Dioniso</persName>
+                        <sex value="M"/>
+                        <note>Dios de la vendimia y el vino, inspirador de la locura ritual y el éxtasis, y un personaje importante de la mitología griega, como hijo del dios principal Zeus.</note>
+                    </person>
+                    <listRelation type="textual">
+                        <relation name="mentions" active="#person_8726289" passive="#person_000001 #person_000002 #person_000005 #person_66462281 #person_66806872"/>
+                    </listRelation>
+                    <listRelation type="contextual">
+                        <relation name="correspondents" active="#person_8726289" passive="#person_000003"/>
+                    </listRelation>
+                </listPerson>
             </sourceDesc>
         </fileDesc>
         <profileDesc>

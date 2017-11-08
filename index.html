@@ -1,15 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <html>
     <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"/>
-        <script src="resources/springy.js"/>
-        <script src="resources/springyui.js"/>
-        <title>Correspondenze</title>
+        <link rel="stylesheet" href="resources/css/bootstrap.min.css"/>
+        <title>Correspondence</title>
     </head>
     <body>
-        <h1>Choose the letter</h1>
-        <div data-template="app:letterList"/>
-        <canvas id="graph" width="640" height="480"/>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <h1>Corrispondence list</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div data-template="app:letterList"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card">
+                        <canvas id="graph" width="800" height="600"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"/>
+        <script src="resources/js/bootstrap.min.js"/>
+        <script src="resources/js/springy.js"/>
+        <script src="resources/js/springyui.js"/>
         <script data-template="app:graph"/>
     </body>
 </html>
